@@ -1,0 +1,64 @@
+body {
+  font-family: poppins, sans-serif;
+  background: linear-gradient(#536976, #292e49);
+  padding: 5% 10%;
+  text-align: center;
+}
+.container {
+  background-color: rgba(192, 192, 192, 0.578);
+  padding: 0 10%;
+  margin: auto;
+  font-size: 1.5em;
+  color: rgb(0, 4, 63);
+  display: inline-block;
+}
+
+header {
+  color: rgb(0, 4, 63);
+  margin: auto;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 1em;
+}
+input[type='text'],
+[type='number'],
+[type='email'],
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+input[type='radio'],
+[type='checkbox'] {
+  text-align: left;
+}
+textarea {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+button {
+  display: block;
+  width: 40%;
+  padding: 5px;
+  padding-top: 25px;
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+  box-sizing: border-box;
+  background-color: #536976;
+}
+button:hover {
+  background-color: #292e49;
+  color: white;
+}
+button:visited {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #536976;
+}
